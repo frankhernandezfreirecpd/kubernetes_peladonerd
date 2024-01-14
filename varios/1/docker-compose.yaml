@@ -34,11 +34,11 @@ services:
     expose:
       - "80"
     volumes:
-      - /Users/kbs/git/peladonerd/varios/1/www:/usr/share/nginx/html:ro
+      - /Users/frank/IdeaProjects/peladonerd/varios/1/www:/usr/share/nginx/html:ro
     environment:
-      - VIRTUAL_HOST=pablokbs.com,www.pablokbs.com
-      - LETSENCRYPT_HOST=pablokbs.com,www.pablokbs.com
-      - LETSENCRYPT_EMAIL=pablo@pablokbs.com
+      - VIRTUAL_HOST=envfhf.click,www.envfhf.click
+      - LETSENCRYPT_HOST=envfhf.click,www.envfhf.click
+      - LETSENCRYPT_EMAIL=frank@envfhf.click
     depends_on:
       - nginx-proxy
       - letsencrypt
